@@ -1,0 +1,21 @@
+# otel-collector-config.yaml
+receivers:
+    otlp:
+        protocols:
+            grpc:
+
+exporters:
+  prometheus:
+    namespace: "otel-collector"
+    endpoint: "0.0.0.0:9089"    
+  logging:
+    loglevel: debug
+
+processors:
+    batch:
+
+service:
+    pipelines:
+        metrics:
+            receivers: [otlp]
+            exporters: [logging, prometheus]

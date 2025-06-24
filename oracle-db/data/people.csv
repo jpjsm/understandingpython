@@ -1,0 +1,18 @@
+﻿ID,FirstName,Middle_names,LastName_1,LastName_2,Birthday,Deceased,Birth_Country,Birth_City,Sex,Father,Mother
+JJM,Juan,Bosco,Jofré,Mussons,1936-02-07,2018-09-01,Chile,Santiago,M,,
+XSML,Ximena,Matilde Micaela,Sainte Marie,Lizana,1937-02-24,,Chile,Santiago,F,,
+JJSM,Juan,Pablo,Jofré,Sainte Marie,1959-03-12,,Colombia,Bogotá,M,JJM,XSML
+XJSM,Ximena,Del Pilar,Jofré,Sainte Marie,1959-12-29,,Colombia,Bogotá,F,JJM,XSML
+MLJSM,María,Lorena,Jofré,Sainte Marie,1961-01-18,,Colombia,Bogotá,F,JJM,XSML
+MMJSM,María,Montserrat,Jofré,Sainte Marie,1959-12-29,,Colombia,Bogotá,F,JJM,XSML
+MFJSM,María,Francisca,Jofré,Sainte Marie,1959-12-29,,Colombia,Bogotá,F,JJM,XSML
+AMD,Álvaro,,Moreno,Dueñas,,,Colombia,Bogotá,M,,
+ARM,Angela,Nhora,Restrepo,Moreno,1937-05-30,,Colombia,Bogotá,F,,
+MMR,Marcela,,Moreno,Restrepo,1959-03-13,,Colombia,Bogotá,F,AMD,ARM
+AMR,Andrés,,Moreno,Restrepo,1961-01-06,,Colombia,Bogotá,M,AMD,ARM
+CMR,Carolina,,Moreno,Restrepo,1963-12-19,,Colombia,Bogotá,F,AMD,ARM
+MLT,Margarita,,Lora,Torres,,,Colombia,Bogotá,F,,
+JJL,Juan,Sebastian,Jofré,Lora,1987-06-10,,Colombia,Bogotá,M,JJSM,MLT
+PJL,Pedro,Pablo,Jofré,Lora,1990-10-11,,Colombia,Bogotá,M,JJSM,MLT
+VAM,Verónica,,Ángel,Moreno,1989-11-10,,Colombia,Bogotá,F,,CMR
+PJM,Paula,,Jofré,Moreno,1995-07-22,,Colombia,Bogotá,F,JJSM,CMR

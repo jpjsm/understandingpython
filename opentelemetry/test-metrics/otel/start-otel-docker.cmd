@@ -1,0 +1,1 @@
+docker run -d --name=otel-collector -p 4317:4317 -p 8888:8888 -p 9089:9089 -v "C:\otel\otel-collector-config.yml:/etc/otel/config.yaml" otel/opentelemetry-collector-contrib:latest

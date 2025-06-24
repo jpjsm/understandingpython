@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance for Arithmetic service
+After=network.target
+
+[Service]
+User=arith 
+Group=www-arith 
+WorkingDirectory=/home/arith 
+Environment="PATH=/home/arith/bin"
+ExecStart=/home/arith/bin/uwsgi --ini arith.ini
+
+[Install]
+WantedBy=multi-user.target

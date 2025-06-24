@@ -1,0 +1,1 @@
+"""Fastapi silly numbers sample."""

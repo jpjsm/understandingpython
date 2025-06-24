@@ -1,0 +1,538 @@
+[
+  {
+    "quote": "The secret of getting ahead is getting started",
+    "author": "Mark Twain"
+  },
+  {
+    "quote": "The only impossible journey is the one you never begin",
+    "author": "Tony Robbins"
+  },
+  {
+    "quote": "The best way to get started is to quit talking and begin doing",
+    "author": "Walt Disney"
+  },
+  {
+    "quote": "When you know what you want, and want it bad enough, you\u2019ll find a way to get it",
+    "author": "Jim Rohn"
+  },
+  {
+    "quote": "Go confidently in the direction of your dreams. Live the life you have imagined",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "quote": "Take action. An inch of movement will bring you closer to your goals than a mile of intention",
+    "author": "Steve Maraboli"
+  },
+  {
+    "quote": "Never let the fear of striking out keep you from playing the game",
+    "author": "Babe Ruth"
+  },
+  {
+    "quote": "Knowing is not enough; we must apply. Wishing is not enough; we must do",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "quote": "Don\u2019t be afraid to give up the good for the great",
+    "author": "John D. Rockefeller"
+  },
+  {
+    "quote": "If you genuinely want something, don\u2019t wait for it \u2013 teach yourself to be impatient",
+    "author": "Gurbaksh Chahal"
+  },
+  {
+    "quote": "The most difficult thing is the decision to act; the rest is merely tenacity",
+    "author": "Amelia Earhart"
+  },
+  {
+    "quote": "You don\u2019t have to be great to start, but you have to start to be great",
+    "author": "Zig Ziglar"
+  },
+  {
+    "quote": "You miss 100% of the shots you don\u2019t take",
+    "author": "Wayne Gretzky"
+  },
+  {
+    "quote": "Twenty years from now, you will be more disappointed by the things that you didn\u2019t do than by the ones you did do. So, throw off the bowlines, sail away from the safe harbor, catch the trade winds in your sails. Explore, Dream, Discover.",
+    "author": "Mark Twain"
+  },
+  {
+    "quote": "Everything you\u2019ve ever wanted is on the other side of fear",
+    "author": "George Addair"
+  },
+  {
+    "quote": "Decide what you want. Believe you can have it. Believe you deserve it and believe it\u2019s possible for you",
+    "author": "Jack Canfield"
+  },
+  {
+    "quote": "I believe that the only courage anybody ever needs is the courage to follow your dreams",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "quote": "Whatever the mind of man can conceive and believe, it can achieve",
+    "author": "Napoleon Hill"
+  },
+  {
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "quote": "If you can dream it, you can achieve it. You will get all you want in life if you help enough other people get what they want.",
+    "author": "Zig Ziglar"
+  },
+  {
+    "quote": "Whether you think you can or think you can\u2019t, you\u2019re right",
+    "author": "Henry Ford"
+  },
+  {
+    "quote": "Magic is believing in yourself; if you can do that, you can make anything happen",
+    "author": "Johann Wolfgang von Goethe"
+  },
+  {
+    "quote": "Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine",
+    "author": "Roy T. Bennett"
+  },
+  {
+    "quote": "Believe you can, and you\u2019re halfway there",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "quote": "There are no limits to what you can accomplish, except the limits you place on your own thinking",
+    "author": "Brian Tracy"
+  },
+  {
+    "quote": "All our dreams will come true if we have the courage to pursue them",
+    "author": "Walt Disney"
+  },
+  {
+    "quote": "We generate fears while we sit. We overcome them by action",
+    "author": "Dr. Henry Link"
+  },
+  {
+    "quote": "Too many of us are not living our dreams because we are living our fears",
+    "author": "Les Brown"
+  },
+  {
+    "quote": "I have learned over the years that when one\u2019s mind is made up, this diminishes fear",
+    "author": "Rosa Parks"
+  },
+  {
+    "quote": "Believe you can, and you\u2019re halfway there",
+    "author": "Theodore Roosevelt"
+  },
+  {
+    "quote": "All our dreams will come true, if we have the courage to pursue them",
+    "author": "Walt Disney"
+  },
+  {
+    "quote": "The secret of change is to focus all of your energy, not on fighting the old, but on building the new",
+    "author": "Socrates"
+  },
+  {
+    "quote": "If you don\u2019t like something, change it. If you can\u2019t change it, change your attitude.",
+    "author": "Mary Angelou"
+  },
+  {
+    "quote": "Your mind is a powerful thing. When you fill it with positive thoughts, your life will start to change",
+    "author": "Gautama Buddha"
+  },
+  {
+    "quote": "A bad attitude is like a flat tire; if you don\u2019t change it, you won\u2019t go anywhere",
+    "author": "Joyce Meyer"
+  },
+  {
+    "quote": "We are all here for some special reason. Stop being a prisoner of your past. Become the architect of your future",
+    "author": "Robin Sharma"
+  },
+  {
+    "quote": "You\u2019ll never change your life until you change something you do daily. The secret of your success is found in your daily routine",
+    "author": "John C. Maxwell"
+  },
+  {
+    "quote": "The future belongs to those who believe in the beauty of their dreams",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "quote": "Dream big and dare to fail",
+    "author": "Norman Vaughan"
+  },
+  {
+    "quote": "Setting goals is the first step in turning the invisible into the visible",
+    "author": "Tony Robbins"
+  },
+  {
+    "quote": "Imagine your life is perfect in every respect; what would it look like?",
+    "author": "Brian Tracy"
+  },
+  {
+    "quote": "I think goals should never be easy; they should force you to work, even if they are uncomfortable at the time",
+    "author": "Michael Phelps"
+  },
+  {
+    "quote": "People who are crazy enough to think they can change the world are the ones who do",
+    "author": "Rob Siltanen"
+  },
+  {
+    "quote": "You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose",
+    "author": "Dr. Seuss"
+  },
+  {
+    "quote": "Whatever the mind can conceive and believe, it can achieve",
+    "author": "Napoleon Hill"
+  },
+  {
+    "quote": "First, have a definite, clear, practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end",
+    "author": "Aristotle"
+  },
+  {
+    "quote": "If you set your goals ridiculously high and it\u2019s a failure, you will fail above everyone else\u2019s success",
+    "author": "James Cameron"
+  },
+  {
+    "quote": "You are never too old to set another goal or to dream a new dream",
+    "author": "C.S. Lewis"
+  },
+  {
+    "quote": "Dreaming, after all, is a form of planning",
+    "author": "Gloria Steinem"
+  },
+  {
+    "quote": "Don\u2019t wish it were easier. Wish you were better.",
+    "author": "Jim Rohn"
+  },
+  {
+    "quote": "Always bear in mind that your own resolution to success is more important than any other one thing",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "quote": "I find that the harder I work, the more luck I seem to have",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "quote": "I never dreamed about success; I worked for it",
+    "author": "Estee Lauder"
+  },
+  {
+    "quote": "For every reason it\u2019s not possible, there are hundreds of people who have faced the same circumstances and succeeded",
+    "author": "Jack Canfield"
+  },
+  {
+    "quote": "Success is walking from failure to failure with no loss of enthusiasm",
+    "author": "Winston Churchill"
+  },
+  {
+    "quote": "I attribute my success to this: I never gave or took any excuse",
+    "author": "Florence Nightingale"
+  },
+  {
+    "quote": "Success usually comes to those who are too busy to be looking for it",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "quote": "Today\u2019s accomplishments were yesterday\u2019s impossibilities",
+    "author": "Robert H. Schuller"
+  },
+  {
+    "quote": "If you look really closely, most overnight successes took a long time",
+    "author": "Steve Jobs"
+  },
+  {
+    "quote": "When you want to succeed as bad as you want to breathe, then you\u2019ll be successful",
+    "author": "Eric Thomas"
+  },
+  {
+    "quote": "Things work out the best for those who make the best of how things work out",
+    "author": "John Wooden"
+  },
+  {
+    "quote": "People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy",
+    "author": "Tony Robbins"
+  },
+  {
+    "quote": "There are no secrets to success. It is the result of preparation, hard work, and learning from failure",
+    "author": "Colin Powell"
+  },
+  {
+    "quote": "Success is a personal standard, reaching for the highest that is in us, becoming all we can be",
+    "author": "Zig Ziglar"
+  },
+  {
+    "quote": "The road to success and the road to failure are almost exactly the same",
+    "author": "Colin R. Davis"
+  },
+  {
+    "quote": "Don\u2019t be distracted by criticism. Remember \u2013 the only taste of success some people get is to take a bite out of you",
+    "author": "Zig Ziglar"
+  },
+  {
+    "quote": "Success is not final; failure is not fatal: it is the courage to continue that counts",
+    "author": "Winston S. Churchill"
+  },
+  {
+    "quote": "Our greatest glory is not in never falling, but in rising every time we fall",
+    "author": "Confucius"
+  },
+  {
+    "quote": "You will face many defeats in life, but never let yourself be defeated",
+    "author": "Maya Angelou"
+  },
+  {
+    "quote": "You may be disappointed if you fail, but you are doomed if you don\u2019t try",
+    "author": "Beverly Sills"
+  },
+  {
+    "quote": "Failure will never overtake me if my determination to succeed is strong enough",
+    "author": "Og Mandino"
+  },
+  {
+    "quote": "You learn more from failure than from success. Don\u2019t let it stop you. Failure builds character",
+    "author": "Unknown"
+  },
+  {
+    "quote": "It\u2019s not whether you get knocked down, it\u2019s whether you get up",
+    "author": "Vince Lombardi"
+  },
+  {
+    "quote": "It\u2019s during our darkest moments that we must focus to see the light",
+    "author": "Aristotle"
+  },
+  {
+    "quote": "Many of life\u2019s failures are people who did not realize how close they were to success when they gave up",
+    "author": "Thomas A. Edison"
+  },
+  {
+    "quote": "What you lack in talent can be made up with desire, hustle, and giving 110% all the time",
+    "author": "Don Zimmer"
+  },
+  {
+    "quote": "Don\u2019t let what you cannot do interfere with what you can do",
+    "author": "John Wooden"
+  },
+  {
+    "quote": "Nothing is impossible, the world itself says, \u2018I\u2019m possible!\u2019",
+    "author": "Audrey Hepburn"
+  },
+  {
+    "quote": "The question isn\u2019t who is going to let me; it\u2019s who is going to stop me?",
+    "author": "Ayn Rand"
+  },
+  {
+    "quote": "Winning isn\u2019t everything, but wanting to win is",
+    "author": "Vince Lombardi"
+  },
+  {
+    "quote": "It does not matter how slowly you go as long as you do not stop",
+    "author": "Confucius"
+  },
+  {
+    "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it",
+    "author": "Henry Ford"
+  },
+  {
+    "quote": "I alone cannot change the world, but I can cast a stone across the water to create many ripples",
+    "author": "Mother Teresa"
+  },
+  {
+    "quote": "The two most important days in your life are the day you are born and the day you find out why",
+    "author": "Mark Twain"
+  },
+  {
+    "quote": "When you stop chasing the wrong things, you give the right things a chance to catch you",
+    "author": "Lolly Daskal"
+  },
+  {
+    "quote": "Decide upon your major definite purpose in life and then organize all your activities around it.",
+    "author": "Brain Tracy"
+  },
+  {
+    "quote": "The only way to do great work is to love what you do. If you haven\u2019t found it yet, keep looking. Don\u2019t settle",
+    "author": "Steve Jobs."
+  },
+  {
+    "quote": "It is never too late to be what you might have been",
+    "author": "George Eliot"
+  },
+  {
+    "quote": "The only person you are destined to become is the person you decide to be",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "quote": "Always stay true to yourself and never let what somebody else says distract you from your goals",
+    "author": "Michelle Obama"
+  },
+  {
+    "quote": "Always remember that you are absolutely unique. Just like everyone else",
+    "author": "Margaret Mead"
+  },
+  {
+    "quote": "Your time is limited, so don\u2019t waste it living someone else\u2019s life",
+    "author": "Steve Jobs"
+  },
+  {
+    "quote": "Be yourself, everyone else is already taken",
+    "author": "Oscar Wilde"
+  },
+  {
+    "quote": "You have to be odd to be number one",
+    "author": "Dr. Seuss"
+  },
+  {
+    "quote": "The man who has confidence in himself gains the confidence of others",
+    "author": "Hasidic Proverb"
+  },
+  {
+    "quote": "Try not to become a person of success, but rather, try to become a person of value",
+    "author": "Albert Einstein"
+  },
+  {
+    "quote": "If you cannot do great things, do small things in a great way",
+    "author": "Napoleon Hill"
+  },
+  {
+    "quote": "We are what we repeatedly do. Excellence, then, is not an act, but a habit",
+    "author": "Aristotle"
+  },
+  {
+    "quote": "Go the extra mile, there\u2019s no-one on it",
+    "author": "Grant Cardone"
+  },
+  {
+    "quote": "Don\u2019t judge each day by the harvest you reap but by the seeds that you plant",
+    "author": "Robert Louis Stevenson"
+  },
+  {
+    "quote": "Keep your face always toward the sunshine and shadows will fall behind you",
+    "author": "Walt Whitman"
+  },
+  {
+    "quote": "The pessimist sees difficulty in every opportunity. The optimist sees opportunity in every difficulty",
+    "author": "Winston Churchill"
+  },
+  {
+    "quote": "No-one can make you feel inferior without your consent",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "quote": "I cam not a product of my circumstances. I am a product of my decisions",
+    "author": "Stephen Covey"
+  },
+  {
+    "quote": "Always do your best. What you plant now, you will harvest later",
+    "author": "Og Mandino"
+  },
+  {
+    "quote": "When you reach the end of your rope, tie a knot in it and hang on",
+    "author": "Franklin D. Roosevelt"
+  },
+  {
+    "quote": "Gratitude is not only the greatest of virtues, but the parent of all others",
+    "author": "Cicero"
+  },
+  {
+    "quote": "Develop an \u2018Attitude of gratitude.\u2019 Say thank you to everyone you meet for everything they do for you",
+    "author": "Brain Tracy"
+  },
+  {
+    "quote": "If you look at what you have in life, you\u2019ll always have more. If you look at what you don\u2019t have in life, you\u2019ll never have enough",
+    "author": "Oprah Winfrey"
+  },
+  {
+    "quote": "Creativity is intelligence having fun",
+    "author": "Albert Einstein"
+  },
+  {
+    "quote": "The best and most beautiful things in the world cannot be seen or even touched \u2013 they must be felt with the heart",
+    "author": "Helen Keller"
+  },
+  {
+    "quote": "It is better to fail in originality than to succeed in imitation",
+    "author": "Herman Melville"
+  },
+  {
+    "quote": "Don\u2019t let yesterday take up too much of today",
+    "author": "Will Rogers"
+  },
+  {
+    "quote": "If life were predictable, it would cease to be life, and be without flavor",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "quote": "Life is never fair. And perhaps it is a good thing for most of us that it is not",
+    "author": "Oscar Wilde"
+  },
+  {
+    "quote": "Life is what happens when you\u2019re busy making other plans",
+    "author": "John Lennon"
+  },
+  {
+    "quote": "In the end, it\u2019s not the years in your life that count. It\u2019s the life in your years",
+    "author": "Abraham Lincoln"
+  },
+  {
+    "quote": "You only live once. But if you do it right, once is enough",
+    "author": "Mae West"
+  },
+  {
+    "quote": "Life is either a daring adventure or nothing at all",
+    "author": "Helen Keller"
+  },
+  {
+    "quote": "Life is 10% what happens to me and 90% of how I react to it",
+    "author": "Charles Swindoll"
+  },
+  {
+    "quote": "Live in the sunshine, swim the sea, drink the wild air",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "quote": "Do not let making a living prevent you from making a life",
+    "author": "John Wooden"
+  },
+  {
+    "quote": "Life is ours to be spent, not to be saved",
+    "author": "D. H. Lawrence"
+  },
+  {
+    "quote": "If you\u2019re offered a seat on a rocket ship, don\u2019t ask what seat! Just get on",
+    "author": "Sheryl Sandberg"
+  },
+  {
+    "quote": "In three words, I can sum up everything I\u2019ve learned about life: it goes on",
+    "author": "Robert Frost"
+  },
+  {
+    "quote": "Whoever is happy will make others happy too",
+    "author": "Anne Frank"
+  },
+  {
+    "quote": "Spread love everywhere you go. Let no one ever come to you without leaving happier",
+    "author": "Mother Teresa"
+  },
+  {
+    "quote": "The purpose of our lives is to be happy",
+    "author": "Dalai Lama"
+  },
+  {
+    "quote": "I would rather die of passion than of boredom",
+    "author": "Vincent van Gogh"
+  },
+  {
+    "quote": "Keep smiling, because life is a beautiful thing and there\u2019s so much to smile about",
+    "author": "Marilyn Monroe"
+  },
+  {
+    "quote": "Go confidently in the direction of your dreams! Live the life you\u2019ve imagined",
+    "author": "Henry David Thoreau"
+  },
+  {
+    "quote": "Love the life you live. Live the life you love",
+    "author": "Bob Marley"
+  },
+  {
+    "quote": "The real test is not whether you avoid this failure, because you won\u2019t. It\u2019s whether you let it harden or shame you into inaction, or whether you learn from it; whether you choose to persevere",
+    "author": "Barack Obama"
+  },
+  {
+    "quote": "Life itself is the most wonderful fairy tale",
+    "author": "Hans Christian Anderson"
+  }
+]

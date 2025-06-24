@@ -1,0 +1,41 @@
+[
+    {
+        "route": "38.142.5.147/32", 
+        "ingress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "10.195.1.66", 
+            "label": 1000001
+        }, 
+        "egress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "198.19.129.156", 
+            "label": 1000000
+        }
+    }, 
+    {
+        "route": "38.142.5.148/32", 
+        "ingress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "10.195.1.2", 
+            "label": 1000001
+        }, 
+        "egress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "198.19.129.156", 
+            "label": 1000000
+        }
+    }, 
+    {
+        "route": "38.140.202.139/32", 
+        "ingress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "10.196.1.2", 
+            "label": 1000001
+        }, 
+        "egress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "198.19.130.28", 
+            "label": 1000000
+        }
+    }
+]

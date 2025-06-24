@@ -1,0 +1,104 @@
+{
+    "pdu": {
+        "apc": {
+            "AP8841": {
+                "default": {
+                    "access": [
+                        [
+                            "apc",
+                            "apc",
+                            "telnet"
+                        ],
+                        [
+                            "apc",
+                            "apc",
+                            "http"
+                        ],
+                        [
+                            "apc",
+                            "apc",
+                            "ssh"
+                        ]
+                    ],
+                    "ping": true,
+                    "ports": [
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "80",
+                        "161",
+                        "161",
+                        "443"
+                    ]
+                },
+                "model": "AP8841",
+                "ora-part-number": "",
+                "compliance": {
+                    "access": [
+                        [
+                            "apc",
+                            "apc",
+                            "ssh"
+                        ]
+                    ],
+                    "ping": true,
+                    "ports": [
+                        "22"
+                    ]
+                },
+                "manufacturer": "APC"
+            },
+            "AP7811B": {
+                "default": {
+                    "access": [
+                        [
+                            "apc",
+                            "apc",
+                            "telnet"
+                        ],
+                        [
+                            "apc",
+                            "apc",
+                            "http"
+                        ],
+                        [
+                            "apc",
+                            "apc",
+                            "ssh"
+                        ]
+                    ],
+                    "ping": true,
+                    "ports": [
+                        "20",
+                        "21",
+                        "22",
+                        "23",
+                        "80",
+                        "161",
+                        "161",
+                        "443"
+                    ]
+                },
+                "model": "AP8841",
+                "ora-part-number": "",
+                "compliance": {
+                    "access": [
+                        [
+                            "apc",
+                            "apc",
+                            "ssh"
+                        ]
+                    ],
+                    "ping": true,
+                    "ports": [
+                        "22"
+                    ]
+                },
+                "manufacturer": "APC"
+            }
+        },
+        "schneider": [],
+        "sun": []
+    }
+}

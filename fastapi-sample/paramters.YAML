@@ -1,0 +1,3 @@
+placeholders:
+    {{author_emails}}: Emails of the authors of the service
+    {{author_names}}:  Name of the authors of the service

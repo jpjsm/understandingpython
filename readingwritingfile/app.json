@@ -1,0 +1,10 @@
+{
+    "templates": {
+        "author_names": "Foo Bar; Moo Naar",
+        "author_emails": "foo.bar@example.com; moo.naar@example.com",
+        "host": "127.0.0.1",
+        "port": "19031"
+    },
+    "infolder": "./inputFiles",
+    "outfolder": "./outputFiles"
+}

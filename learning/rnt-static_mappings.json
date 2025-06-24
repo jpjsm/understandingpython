@@ -1,0 +1,72 @@
+[
+    {
+        "route": "10.144.156.19/32", 
+        "ingress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "10.192.0.2", 
+            "label": 1000001
+        }, 
+        "egress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "198.19.192.7", 
+            "label": 1000000
+        }
+    }, 
+    {
+        "route": "10.144.156.20/32", 
+        "ingress": {
+            "protocol": "GRE", 
+            "next_hop": "172.24.240.5"
+        }, 
+        "egress": {
+            "protocol": "GRE", 
+            "next_hop": "198.19.192.7"
+        }
+    }, 
+    {
+        "route": "10.144.156.21/32", 
+        "ingress": {
+            "protocol": "GRE", 
+            "next_hop": "172.24.240.29"
+        }, 
+        "egress": {
+            "protocol": "GRE", 
+            "next_hop": "198.19.192.7"
+        }
+    },
+    {
+        "route": "10.144.156.27/32", 
+        "ingress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "10.192.0.66", 
+            "label": 1000001
+        }, 
+        "egress": {
+            "protocol": "MPLSoGRE", 
+            "next_hop": "198.19.192.10", 
+            "label": 1000000
+        }
+    }, 
+    {
+        "route": "10.144.156.28/32", 
+        "ingress": {
+            "protocol": "GRE", 
+            "next_hop": "172.24.240.5"
+        }, 
+        "egress": {
+            "protocol": "GRE", 
+            "next_hop": "198.19.192.10"
+        }
+    }, 
+    {
+        "route": "10.144.156.29/32", 
+        "ingress": {
+            "protocol": "GRE", 
+            "next_hop": "172.24.240.29"
+        }, 
+        "egress": {
+            "protocol": "GRE", 
+            "next_hop": "198.19.192.10"
+        }
+    }
+]

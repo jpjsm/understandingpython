@@ -1,0 +1,1 @@
+podman exec -it oracle-db ./setPassword.sh ABCdef123!

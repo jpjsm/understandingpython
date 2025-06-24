@@ -1,0 +1,14 @@
+{
+    "nginx": {
+        "ExternalIpAddress": "38.142.222.60"
+    },
+    "netconfig": {
+        "GreLocal": "172.24.240.5",
+        "link0": "ens9",
+        "LocalNetworkAddress": "172.24.240.5",
+        "LocalNetworkGateway": "172.24.240.1",
+        "ExternalIpAddress": "38.142.222.60",
+        "GreRemote": "198.19.128.32",
+        "LocalNetworkCIDR": "/24"
+    }
+}

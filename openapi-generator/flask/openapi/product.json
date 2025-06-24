@@ -1,0 +1,395 @@
+{
+  "openapi": "3.0.0",
+  "x-stoplight": {
+    "id": "g9l0d26obix6w"
+  },
+  "info": {
+    "title": "product",
+    "version": "1.0",
+    "contact": {
+      "name": "JuanPablo Jofre",
+      "email": "juan.pablo.jofre@dell.com",
+      "url": "http://product.test/contact"
+    },
+    "description": "CRUD operations on product objects with simple query",
+    "license": {
+      "name": "MIT",
+      "url": "https://www.opensource.org/licenses/mit-license.php"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:15000",
+      "description": "flaskServer"
+    },
+    {
+      "url": "http://localhost:15001",
+      "description": "fastapiServer"
+    }
+  ],
+  "paths": {
+    "/product": {
+      "get": {
+        "summary": "Product",
+        "tags": [
+          "id",
+          "product",
+          "name"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/products"
+                },
+                "examples": {
+                  "example-1": {
+                    "value": [
+                      {
+                        "id": 23,
+                        "name": "product name 世界",
+                        "cost": 234.56,
+                        "stock": 8
+                      }
+                    ]
+                  },
+                  "example-2": {
+                    "value": []
+                  },
+                  "example-3": {
+                    "value": [
+                      {
+                        "id": 23,
+                        "name": "product name 世界",
+                        "cost": 234.56,
+                        "stock": 8
+                      },
+                      {
+                        "id": 7,
+                        "name": "персик",
+                        "cost": 11.93,
+                        "stock": 3
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "operationId": "GetProducts",
+        "description": "Retrieves all products when no query parameters are used.\n\nIf [`id`] is provided, the result set contains all products that have Id matches in the system; if there's no match to one or more `id`, those values are ignored. If there is no match to any `id`, the result is an empty array.\n\nIf [`name`] is provided, the behavior is similar to [`id`] but using `name`instead.\n\nIf [`name`] and [`id`] query parameters are provided the result is the union of both searches.",
+        "parameters": [
+          {
+            "schema": {
+              "type": "array"
+            },
+            "in": "query",
+            "name": "id",
+            "description": "The list of product _id_ to search for."
+          },
+          {
+            "schema": {
+              "type": "array"
+            },
+            "in": "query",
+            "name": "name",
+            "description": "The list of product _name_ to search for"
+          }
+        ]
+      },
+      "post": {
+        "summary": "Create a product",
+        "operationId": "InsertProduct",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/product"
+                },
+                "examples": {
+                  "example-1": {
+                    "value": {
+                      "id": 23,
+                      "name": "product name 世界",
+                      "cost": 234.56,
+                      "stock": 8
+                    }
+                  },
+                  "example-2": {
+                    "value": {
+                      "id": 77,
+                      "name": "αγκινάρα",
+                      "cost": 5.6,
+                      "stock": 17
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "400": {
+            "description": "Bad Request:\n Payload not in the correct format. Expecting json body.\n- Payload not in the correct format. One or more `product` properties are missing.\n- Payload not in the correct format. One or more `product` properties are invalid.\n"
+          },
+          "409": {
+            "description": "Conflict:\n- Different product with same Id exists.\n- New name conflicts with existing name in different product"
+          }
+        },
+        "description": "Inserts a new product"
+      }
+    },
+    "/product/{id}": {
+      "parameters": [
+        {
+          "schema": {
+            "type": "integer",
+            "minimum": 1,
+            "example": 35
+          },
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "The id of the product"
+        }
+      ],
+      "get": {
+        "summary": "Get product by id",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request:\n- id must be an integer"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "operationId": "getProductById",
+        "description": "Retrieves a product by `id`."
+      },
+      "put": {
+        "summary": "Update product by id",
+        "operationId": "updateProduct",
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Bad Request:\n- `id` is not an integer\n- Payload not in the correct format. Expecting json body.\n- Payload not in the correct format. One or more `product` properties are missing.\n- Payload not in the correct format. One or more `product` properties are invalid.\n- Path `id` doesn't match the body of the update.\n- New name conflicts with existing name in different product"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "description": "Updates an existing product",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/product"
+              },
+              "examples": {
+                "example-1": {
+                  "value": {
+                    "id": 5040,
+                    "name": "ਸਿਲੈਂਟਰੋ",
+                    "cost": 66.25,
+                    "stock": 27
+                  }
+                },
+                "example-2": {
+                  "value": {
+                    "id": 31,
+                    "name": "ਸਿਲੈਂਟਰੋ",
+                    "cost": 210.03,
+                    "stock": 4
+                  }
+                },
+                "example-3": {
+                  "value": {
+                    "id": 39,
+                    "name": "구두",
+                    "cost": 0.49,
+                    "stock": 602
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "summary": "Update product properties",
+        "operationId": "patchProduct",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request:\n- `id` is not an integer\n- At least one (1) query parameter must be provided"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "description": "Update product properties",
+        "parameters": [
+          {
+            "schema": {
+              "type": "number",
+              "minimum": 0,
+              "example": 50
+            },
+            "in": "query",
+            "name": "cost",
+            "description": "The new cost of the product"
+          },
+          {
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "example": 24
+            },
+            "in": "query",
+            "name": "stock",
+            "description": "The new stock level of the product"
+          }
+        ]
+      },
+      "delete": {
+        "summary": "Delete product",
+        "operationId": "deleteProduct",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/product"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request:\n- `id` is not an integer"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        },
+        "description": "Deletes a product"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "product": {
+        "title": "product",
+        "x-stoplight": {
+          "id": "nn5x6ydtvc569"
+        },
+        "type": "object",
+        "description": "An item stored in a warehouse",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "example": 23
+          },
+          "name": {
+            "type": "string",
+            "example": "product name 世界",
+            "maxLength": 256,
+            "pattern": "^(\\\\p{L}\\\\p{M}*)((\\\\p{L}\\\\p{M}*)|\\\\p{N}|\\\\p{Pd}|\\\\p{Pi}|\\\\p{Pf}|\\\\p{Pc}|,|.|;|:|\\\\p{Zs})*$"
+          },
+          "cost": {
+            "type": "number",
+            "example": 234.56,
+            "minimum": 0
+          },
+          "stock": {
+            "type": "integer",
+            "minimum": 0,
+            "example": 8
+          }
+        },
+        "x-examples": {
+          "example-1": {
+            "id": 23,
+            "name": "product name 世界",
+            "cost": 234.56,
+            "stock": 8
+          },
+          "example-2": {
+            "id": 37,
+            "name": "फलों का सलाद",
+            "cost": 56.09,
+            "stock": 17
+          },
+          "example-3": {
+            "id": 53,
+            "name": "Pingüino",
+            "cost": 22.81,
+            "stock": 12
+          }
+        }
+      },
+      "products": {
+        "title": "products",
+        "x-stoplight": {
+          "id": "787hfxznfgd4d"
+        },
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/product"
+        },
+        "x-examples": {
+          "example-1": [
+            {
+              "id": 23,
+              "name": "product name 世界",
+              "cost": 234.56,
+              "stock": 8
+            },
+            {
+              "id": 17,
+              "name": "Voilà ! Bien sûr, l'aïeul du café des garçons",
+              "cost": 39.11,
+              "stock": 1
+            },
+            {
+              "id": 3,
+              "name": "அதனால் ! நிச்சயமாக, சிறுவர்கள் ஓட்டலின் மூதாதையர்",
+              "cost": 41.72,
+              "stock": 0
+            }
+          ]
+        },
+        "description": "A collection of products"
+      }
+    }
+  }
+}
