@@ -1,0 +1,9 @@
+## Forced Container STOP and REMOVE
+for c in $(docker container ls -q --all); do docker container rm -f $c; done
+
+## Forced Volume REMOVE for all volumes starting with 'open-webui-postgres-rag-pipeline'
+for c in $(docker volume ls -q|grep open-webui-postgres-rag-pipeline); do docker volume rm $c; done
+
+## Forced Volume REMOVE of ALL volumes
+for c in $(docker volume ls -q); do docker volume rm $c; done
+

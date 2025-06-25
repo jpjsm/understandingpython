@@ -1,0 +1,25 @@
+********************    HAYSTACK_SIZE =        1,000    ********************
+search_fast                     : total time:        0.052 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.158;        5.203;       11.651) µSecs
+search_unknown_tuple            : total time:        0.088 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.333;        8.764;       21.016) µSecs
+search_slow                     : total time:        0.100 secs; total iterations:  10,000; (min; avg; max) µSecs: (       9.659;       10.020;       17.494) µSecs
+search_unknown_list             : total time:        0.132 secs; total iterations:  10,000; (min; avg; max) µSecs: (      11.926;       13.247;       43.340) µSecs
+********************    HAYSTACK_SIZE =       10,000    ********************
+search_fast                     : total time:        0.542 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.158;       27.114;      123.832) µSecs
+search_unknown_tuple            : total time:        0.917 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.333;       45.873;      188.882) µSecs
+search_slow                     : total time:        1.081 secs; total iterations:  10,000; (min; avg; max) µSecs: (       9.659;       54.073;      145.152) µSecs
+search_unknown_list             : total time:        1.317 secs; total iterations:  10,000; (min; avg; max) µSecs: (      11.926;       65.859;      152.167) µSecs
+********************    HAYSTACK_SIZE =      100,000    ********************
+search_fast                     : total time:        5.602 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.158;      186.728;    1,177.550) µSecs
+search_unknown_tuple            : total time:        9.378 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.333;      312.615;    1,767.151) µSecs
+search_slow                     : total time:       11.253 secs; total iterations:  10,000; (min; avg; max) µSecs: (       9.659;      375.110;    1,548.594) µSecs
+search_unknown_list             : total time:       13.255 secs; total iterations:  10,000; (min; avg; max) µSecs: (      11.926;      441.822;    1,523.541) µSecs
+********************    HAYSTACK_SIZE =    1,000,000    ********************
+search_fast                     : total time:       55.740 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.158;    1,393.496;   12,186.123) µSecs
+search_unknown_tuple            : total time:       93.130 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.333;    2,328.250;   17,123.084) µSecs
+search_slow                     : total time:      111.091 secs; total iterations:  10,000; (min; avg; max) µSecs: (       9.659;    2,777.272;   15,217.384) µSecs
+search_unknown_list             : total time:      133.688 secs; total iterations:  10,000; (min; avg; max) µSecs: (      11.926;    3,342.197;   14,059.398) µSecs
+********************    HAYSTACK_SIZE =   10,000,000    ********************
+search_fast                     : total time:      536.555 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.158;   10,731.104;  113,062.321) µSecs
+search_unknown_tuple            : total time:      900.568 secs; total iterations:  10,000; (min; avg; max) µSecs: (       0.333;   18,011.353;  180,005.925) µSecs
+search_slow                     : total time:    1,108.104 secs; total iterations:  10,000; (min; avg; max) µSecs: (       9.659;   22,162.075;  121,467.749) µSecs
+search_unknown_list             : total time:    1,525.309 secs; total iterations:  10,000; (min; avg; max) µSecs: (      11.926;   30,506.171;  168,564.709) µSecs

@@ -1,0 +1,10 @@
+#
+channels:
+  - https://artifacts.dell.com/artifactory/conda-prefix
+  - nodefaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - --extra-index-url https://artifacts.dell.com/artifactory/api/pypi/python/simple/ --trusted-host artifacts.dell.com
+      - numpy
